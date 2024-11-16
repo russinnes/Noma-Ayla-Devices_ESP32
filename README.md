@@ -24,9 +24,9 @@ A look at the FCC ID gives a hint (ESP32C3MINI)
 
 ## Communication probing
 
-Prior to opening anything up, I probed around on the header on the door opener board. I had the app connected/loaded, and wanted to figure out how their device was comunicating with the door opener itslef. Having probed the port already for voltages, I began probing serial communications. Most UARTS are running at 115200 these days, this was no different. Probing into a terminal while activating the  door and lights, it was fairly easy to identify byte patterns, both commands and acknowledgements. 
+Prior to opening anything up, I probed around on the header on the door opener board. I had the app connected/loaded, and wanted to figure out how their device was communicating with the door opener itself. Having probed the port already for voltages, I began probing serial communications. Most UARTS are running at 115200 these days, this was no different. Probing into a serial terminal while activating the door and lights, it was fairly easy to identify byte patterns, both commands and acknowledgements.   
 
-For the garage door opener and light **control messages**:
+For the garage door opener and light **control messages**:   
 
 
 Overhead light on: ```[0xAA,0xAA,0x01,0x02,0x02,0x01,0x03,0x03,0x55,0x55]```   
