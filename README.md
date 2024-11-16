@@ -1,6 +1,6 @@
 # Noma (Ayla) Cloud-Connected Hardware (And a free ESP32)
 
-I recently replaced my garage door, the new one (Noma Brand) advertised with a "Smartphone Link". This could get interesting; I was very curious how they implemented a cloud service. My first assumption was another Tuya platform service rebranded; I was wrong. 
+I recently replaced my garage door, the new one (Craftsman Brand) advertised with a "Smartphone Link". This could get interesting; I was very curious how they implemented a cloud service. My first assumption was another Tuya platform service rebranded; I was wrong. 
 
 At first look, I saw this and obviously had some questions: A USB-A port (USB3.x port? What is happening in this thing??) 
 ![USB 3 seems extreme for a garage door opener](https://raw.githubusercontent.com/russinnes/Noma-Ayla-Devices_ESP32/refs/heads/main/images/IMG_5877.jpeg)   
