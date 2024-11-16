@@ -47,7 +47,7 @@ I chose to get the data between the devices figured out before diving into anyth
  
 ## The other end - Net/Cloud
 
-I ran wireshark with a man-in-the-middle hotspot to see how and to whom it was communicating. It reaches out to AWS for most of it. A few interesting points: API access appears to need an access token which is generated at the remote end (AWS). Once the access token is recieved, all LAN based communication is in clear text, however the payloads are encoded. 
+I ran wireshark with a man-in-the-middle hotspot to see how and to whom it was communicating. It reaches out to AWS for most of it. A few interesting points: API access appears to need an access token which is generated at the remote end (AWS). Once the access token is recieved, all LAN based communication is in clear text, however the payloads are encoded. Non-Lan / WAN connections are all TLS once the key exchange happens. 
 
 ```
 ===================================================================
