@@ -7,10 +7,10 @@ At first look, I saw this and obviously had some questions: A USB-A port (USB3.x
 Further inspection - they obviously got a deal on these ports, only the 4 typical USB pins are used. However its not USB. 
 Probing the other side of this on the board revealed the following:
 
-P1 - +3.3 VDC
-P2 - TTL UART Tx
-P3 - TTL UART Rx
-P4 - ESP32 Select (more on this later) 
+P1 - +3.3 VDC   
+P2 - TTL UART Tx   
+P3 - TTL UART Rx   
+P4 - ESP32 Select (more on this later)    
 Ground is not contained in the actual plug/header itself. The stock device uses the shield as ground. You could use the header mounts on the board for a ground on this end. 
 The bottom 5 pins (USB3 plug) do nothing, obviously. 
 
